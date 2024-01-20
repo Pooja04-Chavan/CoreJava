@@ -17,9 +17,11 @@ public class Lab096 {
     }
 
     static int pramod_sum(int input_1, int input_2){ // Definition of the Function
+
         return input_1+input_2;
     }
     static int pramod_sum(int input_1){
+
         return input_1;
     }
 
