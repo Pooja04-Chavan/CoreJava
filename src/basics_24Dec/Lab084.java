@@ -6,12 +6,12 @@ public class Lab084 {
         int[] arr1 = {1,2,3,4,5};
         int[] arr2 = {1,2,3,4,5};
 
-        System.out.println(arr1==arr2);
+      System.out.println(arr1==arr2); //check reference name return false
 
         int[] arr3 = arr1;
-        System.out.println(arr1==arr3);
+       System.out.println(arr1==arr3); //true
 
-        System.out.println(arr1.equals(arr2));
+        System.out.println(arr1.equals(arr2)); // false
         // If String -> True Why - Values
         // Arrays -> Compare Don't -> Ref - Not equal
 
